@@ -33,123 +33,111 @@
 
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
+<!--
+  - #SIDEBAR
+-->
 
-    <aside class="sidebar" data-sidebar>
+<aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+  <!-- Top visible section -->
+  <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/logo1123.png" alt="Rahul Bolloju" width="80">
-        </figure>
+    <figure class="avatar-box">
+      <img src="./assets/images/logo1123.png" alt="Rahul Teja" width="80">
+    </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Rahul Bolloju">Rahul Teja</h1>
+    <div class="info-content">
+      <h1 class="name" title="Rahul Teja">Rahul Teja</h1>
+      <p class="title">Data Scientist</p>
+    </div>
 
-          <p class="title">Data Scientist</p>
+    <!-- ✅ SOCIAL ICONS (ALWAYS VISIBLE) -->
+    <ul class="social-list">
+
+      <li class="social-item">
+        <a href="https://github.com/rahulteja1" class="social-link" target="_blank" aria-label="GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/tj16" class="social-link" target="_blank" aria-label="LinkedIn">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://www.kaggle.com/rahultejabolloju" class="social-link" target="_blank" aria-label="Kaggle">
+          <ion-icon name="logo-kaggle"></ion-icon>
+        </a>
+      </li>
+
+    </ul>
+
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
+  </div>
+
+  <!-- Expandable contact section -->
+  <div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
         </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:b.rahulteja01@gmail.com" class="contact-link">
+            b.rahulteja01@gmail.com
+          </a>
+        </div>
+      </li>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+9062992760" class="contact-link">
+            +1 (906) 299-2760
+          </a>
+        </div>
+      </li>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Birthday</p>
+          <time datetime="1995-07-16">July 16</time>
+        </div>
+      </li>
 
-      </div>
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Chicago, IL</address>
+        </div>
+      </li>
 
-      <div class="sidebar-info_more">
+    </ul>
 
-        <div class="separator"></div>
+  </div>
 
-        <ul class="contacts-list">
+</aside>
 
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:b.rahulteja01@gmail.com" class="contact-link">b.rahulteja01@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+9062992760" class="contact-link">+1 (906) 299-2760</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1995-07-16">July 16</time>
-            </div>
-
-          </li>
-
-           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Chicago, IL</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-<ul class="social-list">
-
-  <li class="social-item">
-    <a href="https://github.com/rahulteja1" class="social-link" target="_blank">
-      <ion-icon name="logo-github"></ion-icon>
-    </a>
-  </li>
-
-  <li class="social-item">
-    <a href="https://www.linkedin.com/in/tj16" class="social-link" target="_blank">
-      <ion-icon name="logo-linkedin"></ion-icon>
-    </a>
-  </li>
-
-  <li class="social-item">
-    <a href="https://www.kaggle.com/rahultejabolloju" class="social-link" target="_blank">
-      <ion-icon name="logo-kaggle"></ion-icon>
-    </a>
-  </li>
-
-</ul>
-
-
-      </div>
-
-    </aside>
 
 
 
